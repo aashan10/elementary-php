@@ -1,0 +1,10 @@
+{
+  "events" : {
+    "controller_method_execute_before" : [
+      "App\\Observer\\BeforeControllerExecute"
+    ],
+    "controller_method_execute_after" : [
+      "App\\Observer\\AfterControllerExecute"
+    ]
+  }
+}

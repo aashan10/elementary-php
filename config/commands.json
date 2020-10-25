@@ -1,0 +1,5 @@
+{
+  "commands": [
+    "Elementary\\Console\\Command\\HappyDashainCommand"
+  ]
+}

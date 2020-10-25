@@ -1,0 +1,19 @@
+#!/usr/bin/php
+<?php
+
+define('APP_DIR', __DIR__);
+
+use Elementary\Console\API\AppInterface;
+use Elementary\Container\Exceptions\NotFoundException;
+
+require_once 'vendor/autoload.php';
+
+try {
+    /** @var AppInterface $app */
+    $app = app()->get(AppInterface::class);
+    $app->boot();
+} catch (NotFoundException $e) {
+
+} catch (ReflectionException $e) {
+
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "elementary/elementary",
+  "description": "A PHP Framework for web enthusiasts.",
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app/",
+      "Elementary\\" : "src/core/"
+    },
+    "files" : [
+      "src/core/Helpers/functions.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "psr/container": "^1.0",
+    "filp/whoops": "^2.7",
+    "symfony/console": "^5.1"
+  },
+  "require-dev": {
+    "maximebf/debugbar": "1.*"
+  }
+}

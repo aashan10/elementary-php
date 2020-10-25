@@ -1,0 +1,12 @@
+{
+  "override" : {
+    "Elementary\\Request\\API\\RequestInterface" : "Elementary\\Request\\Request",
+    "Elementary\\Events\\API\\EventInterface" : "Elementary\\Events\\Event",
+    "Elementary\\Events\\API\\ObserverDataInterface" : "Elementary\\Events\\ObserverData",
+    "Elementary\\Response\\API\\ResponseInterface" : "Elementary\\Response\\JsonResponse",
+    "Elementary\\Console\\API\\AppInterface" : "Elementary\\Console\\App"
+  },
+  "alias" : [
+
+  ]
+}
